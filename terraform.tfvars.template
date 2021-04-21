@@ -33,4 +33,4 @@ https_proxy = ""
 no_proxy = ""
 
 # Use this var if you have multiple installation within one AWS region
-# prefix = "..."
+# prefix = "vijay-dev"
