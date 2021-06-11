@@ -137,7 +137,7 @@ variable "ubuntu_ami" {
     eu-central-1   = "ami-0085d4f8878cddc81"
     eu-north-1     = "ami-4bd45f35"
     eu-west-1      = "ami-03746875d916becc0"
-    eu-west-2      = "ami-0cbe2951c7cd54704"
+    eu-west-2      = "ami-0b0758573f5d3f270"
     eu-west-3      = "ami-080d4d4c37b0aa206"
     sa-east-1      = "ami-09beb384ba644b754"
     us-east-1      = "ami-0cfee17793b08a293"
