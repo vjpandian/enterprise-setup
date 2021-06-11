@@ -71,7 +71,7 @@ resource "aws_s3_bucket" "circleci_bucket" {
   force_destroy = var.force_destroy_s3_bucket
 }
 
-## IAM Role for instances
+## IAM for instances
 
 resource "aws_iam_role" "circleci_role" {
   name               = "${var.prefix}_role"
