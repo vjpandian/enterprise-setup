@@ -38,7 +38,7 @@ variable "services_ami" {
 
 variable "services_instance_type" {
   description = "instance type for the centralized services box.  We recommend a m4.2xlarge instance, with 32G of RAM"
-  default     = "m5.2xlarge"
+  default     = "c5n.2xlarge"
 }
 
 variable "builder_instance_type" {
@@ -63,7 +63,7 @@ variable "enable_nomad" {
 
 variable "nomad_client_instance_type" {
   description = "instance type for the nomad clients. It must be a valid aws instance type."
-  default     = "m5.2xlarge"
+  default     = "c5n.2xlarge"
 }
 
 variable "prefix" {
@@ -137,7 +137,7 @@ variable "ubuntu_ami" {
     eu-central-1   = "ami-0085d4f8878cddc81"
     eu-north-1     = "ami-4bd45f35"
     eu-west-1      = "ami-03746875d916becc0"
-    eu-west-2      = "ami-0b0758573f5d3f270"
+    eu-west-2      = "ami-0b0758573f5d3f270" 
     eu-west-3      = "ami-080d4d4c37b0aa206"
     sa-east-1      = "ami-09beb384ba644b754"
     us-east-1      = "ami-0cfee17793b08a293"
